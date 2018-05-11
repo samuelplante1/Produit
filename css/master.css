@@ -62,3 +62,7 @@ img{
   margin-bottom: 35px;
   margin-top: 20px;
 }
+body.fadenav {
+    opacity: 0;
+    transition: none;
+}

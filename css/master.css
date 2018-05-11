@@ -32,6 +32,10 @@ img{
   position:absolute;
   width: 100%;
 }
+.navbar:hover{
+  transition:.2s;
+  background-color: #444;
+}
 .nav-link, .navbar-brand{
   text-shadow: 2px 2px 8px #000000;
 }

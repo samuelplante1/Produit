@@ -4,10 +4,9 @@
   left: 0;
   z-index: -2  ;
   overflow: hidden;
-  height: auto;
-  min-height: 80vh;
+  height: 80vh;
   min-width:100vw;
-  width: 100vw;
+  width: auto;
   position: fixed;
   margin-left: 50%;
   transform: translateX(-50%);

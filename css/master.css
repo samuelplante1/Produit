@@ -34,7 +34,7 @@ img{
 }
 .navbar:hover{
   transition:.2s;
-  background-color: #444;
+  background-color: #444a;
 }
 .nav-link, .navbar-brand{
   text-shadow: 2px 2px 8px #000000;

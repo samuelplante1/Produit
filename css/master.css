@@ -10,6 +10,7 @@
   position: fixed;
   margin-left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 0;
 }
 .img{
   overflow: hidden;
@@ -24,6 +25,7 @@
 img{
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 .navbar{
   background-color: #fff0;

@@ -1,0 +1,63 @@
+.img > img{
+
+  top: 0;
+  left: 0;
+  z-index: -2  ;
+  overflow: hidden;
+  height: auto;
+  min-height: 80vh;
+  min-width:100vw;
+  width: 100vw;
+  position: fixed;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.img{
+  overflow: hidden;
+  max-height: 80vh;
+  height: 80vh;
+  position:relative;
+  top: -88.88px;
+  background-color: #2225;
+  z-index: -1;
+  margin-bottom: -88.88px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.navbar{
+  background-color: #fff0;
+  position:absolute;
+  width: 100%;
+}
+.nav-link, .navbar-brand{
+  text-shadow: 2px 2px 8px #000000;
+}
+.jumbotron{
+  position:relative;
+  top: -5vh;
+  border-radius: 5px;
+  margin-bottom: -5vh;
+}
+.container-fluid{
+  background-color: white;
+  padding:0;
+}
+.fadenav{
+  transition-duration: .2s;
+  background-color: #444;
+  z-index: 99;
+}
+.form-control{
+  background-color: #e0e0e0
+}
+.divider{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 2px;
+  background: #1a1a1a;
+  margin-bottom: 35px;
+  margin-top: 20px;
+}

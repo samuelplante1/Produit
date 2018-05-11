@@ -1,0 +1,29 @@
+.container-fluid, .container, .jumbotron{
+  margin: 0;
+}
+
+h1, p{
+  color: #bbb !important;
+}
+
+.overlay{
+  height: 100vh;
+  background-color: #2225;
+  z-index: 3;
+}
+body .img .overlay .container{
+  padding-top: 40vh !important;
+}
+
+img{
+  z-index: -1;
+  height: 100vh;
+  width:auto;
+  position: fixed;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+h1, p{
+text-align: center;
+justify-content: center;
+}

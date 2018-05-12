@@ -28,6 +28,7 @@ img{
   margin-bottom: 20px;
 }
 .navbar{
+  transition:.2s;
   background-color: #fff0;
   position:absolute;
   width: 100%;

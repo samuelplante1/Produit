@@ -2,10 +2,6 @@
   margin: 0;
 }
 
-h1, p{
-  color: #bbb !important;
-}
-
 .overlay{
   height: 100vh;
   background-color: #2225;
@@ -22,8 +18,20 @@ img{
   position: fixed;
   margin-left: 50%;
   transform: translateX(-50%);
-
-h1, p{
+}
+h1, p, a, .container{
 text-align: center;
 justify-content: center;
+color: #fff !important;
+text-shadow: 2px 2px 8px #000000;
+}
+
+a{
+  margin-left: auto;
+  margin-right: auto;
+  transition: .18s ease-in-out;
+}
+a:hover
+{
+  transform: scale(1.1);
 }

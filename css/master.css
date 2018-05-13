@@ -28,13 +28,13 @@ img{
   margin-bottom: 20px;
 }
 .navbar{
-  transition:.2s;
+  transition:.2s ease-in-out;
   background-color: #fff0;
   position:absolute;
   width: 100%;
 }
 .navbar:hover{
-  transition:.2s;
+  transition:.2s ease-in-out;
   background-color: #444a;
 }
 .nav-link, .navbar-brand{
@@ -51,8 +51,8 @@ img{
   padding:0;
 }
 .fadenav{
-  transition-duration: .2s;
-  background-color: #444;
+  transition: .2s ease-in-out;
+  background-color: #444a;
   z-index: 99;
 }
 .form-control{
@@ -70,4 +70,26 @@ img{
 body.fadenav {
     opacity: 0;
     transition: none;
+}
+.navbar-toggler{
+  border-color: #0000!important;
+}
+.navbar-toggler-icon{
+  content:url("img/hamb.svg");
+  width: 30px;
+  height: 30px;
+  color: white;
+  margin-bottom: 0;
+  transition: .5s cubic-bezier(0.45,-0.79, 0.57, 1.9)
+}
+.navbar-toggler-icon.clicked{
+  transform: rotate(180deg);
+}
+a{
+  transition: .18s ease-in-out;
+    transform-origin: 75px 18px;
+}
+a:hover
+{
+  transform: scale(1.1);
 }

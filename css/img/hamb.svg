@@ -1,0 +1,19 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="514" width="514" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon stroke="null" filter="url(#svg_1_blur)" fill="#494949" id="svg_1" points="403.90740844137326,152.86516556581046 424.5617980957031,175.25745955631646 254.2162628173828,360.5617370605469 83.87075190718679,175.25745955631646 104.41868534921741,152.86516556581046 254.2162628173828,315.6689671278 "/>
+  <polygon filter="url(#svg_2_blur)" fill="#ffffff" id="svg_2" points="388.3586280941963,157.85954362154007 407.7586219906807,178.5595253109932 247.7586219906807,349.85954362154007 87.75863724946976,178.5595253109932 107.05864030122757,157.85954362154007 247.7586219906807,308.35954362154007 "/>
+ </g>
+</svg>

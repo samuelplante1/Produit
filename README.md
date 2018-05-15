@@ -1,1 +1,1 @@
-samuelplante.github.io/Produit/
+https://samuelplante.github.io/Produit/

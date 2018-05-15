@@ -87,7 +87,7 @@ body.fadenav {
 }
 a{
   transition: .18s ease-in-out;
-  display: inline-block;
+  display: inline-block !important;
 }
 a:hover
 {

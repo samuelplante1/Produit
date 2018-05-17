@@ -89,7 +89,7 @@ a{
   transition: .18s ease-in-out;
   display: inline-block !important;
 }
-a:hover
+.btn:hover
 {
   transform: scale(1.1);
 }
